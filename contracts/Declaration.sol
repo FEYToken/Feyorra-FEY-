@@ -12,7 +12,7 @@ abstract contract Declaration  {
 
     uint256 public constant YEARLY_INTEREST = 410;
     uint256 public constant MINIMUM_STAKE = 100E18;
-    uint256 public constant SECONDS_IN_DAY = 30;
+    uint256 public constant SECONDS_IN_DAY = 86400;
     uint256 public constant MAX_STAKE_DAYS = 5;
 
     uint256 public immutable LAUNCH_TIME;
